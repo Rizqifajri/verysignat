@@ -14,7 +14,7 @@ const UploadSignature = () => {
             <img className='w-full h-56 bg-black ' src='' alt='' />
             <label
               for='signature-upload'
-              className='bg-[#97EB63] p-3 rounded-full text-black hover:text-white font-bold hover:bg-black transition-all  cursor-pointer'
+              className='bg-[#9474df] p-3 rounded-full text-black hover:text-white font-bold hover:bg-black transition-all  cursor-pointer'
             >
               Choose Your signature
             </label>
@@ -28,7 +28,7 @@ const UploadSignature = () => {
               <img className='w-full h-56 bg-black' src='' alt='' />
               <label
                 for='signature-upload'
-                className='bg-[#97EB63] p-3 rounded-full text-black hover:text-white font-bold hover:bg-black transition-all  cursor-pointer'
+                className='bg-[#9474df] p-3 rounded-full text-black hover:text-white font-bold hover:bg-black transition-all  cursor-pointer'
               >
                 Choose Your signature
               </label>
@@ -37,7 +37,7 @@ const UploadSignature = () => {
           </div>
         </div>
       </div>
-      <SimilarityScore/>
+      <SimilarityScore />
     </section>
   );
 };

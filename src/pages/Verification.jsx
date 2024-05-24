@@ -1,14 +1,13 @@
-import React from 'react'
-import UploadSignature from '../components/UploadSignature'
-import SimilarityScore from '../components/SimilarityScore'
+import React from "react";
+import UploadSignature from "../components/UploadSignature";
+import SimilarityScore from "../components/SimilarityScore";
 
 const Verification = () => {
   return (
     <div>
-      <UploadSignature/>
-      
+      <UploadSignature />
     </div>
-  )
-}
+  );
+};
 
-export default Verification
+export default Verification;

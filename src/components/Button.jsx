@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Button = () => {
   return (
@@ -7,7 +7,7 @@ const Button = () => {
         SIGNATURE VERIFICATION
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;
