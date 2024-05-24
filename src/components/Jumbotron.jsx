@@ -14,9 +14,12 @@ const Jumbotron = () => {
         <p className='font-semibold text-white'>
           Unmatched Accuracy and Security
         </p>
-        <button className='text-white p-2 text-[10px] md:text-[20px] rounded-full border-2 border-[#9474df] hover:bg-[#9474df] transition-all hover:text-black font-semibold my-10'>
+        <a
+          href='#fitur'
+          className='text-white p-2 text-[10px] md:text-[20px] rounded-full border-2 border-[#9474df] hover:bg-[#9474df] transition-all hover:text-black font-semibold my-10'
+        >
           Learn more
-        </button>
+        </a>
       </div>
     </section>
   );

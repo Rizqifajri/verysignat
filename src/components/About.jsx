@@ -24,7 +24,7 @@ const About = () => {
           <h1 className='text-[30px] font-semibold text-[#9474df] mx-2'>
             Tentang Kami
           </h1>
-          <p className='text-white font-light text-sm mx-2 text-justify md:text-xl'>
+          <p className='text-white font-light text-sm mx-2 text-justify md:text-xl z-10'>
             Kami berdedikasi untuk meningkatkan keamanan dan kepercayaan dalam
             verifikasi keaslian tanda tangan. Dengan memanfaatkan teknologi
             pemrosesan gambar dan kecerdasan buatan yang mutakhir, kami

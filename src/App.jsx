@@ -9,7 +9,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <NavigationBar />
       <Jumbotron />
       <About />
       <Feature />

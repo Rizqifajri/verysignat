@@ -5,9 +5,9 @@ const NavigationBar = () => {
   const location = useLocation();
 
   return (
-    <nav className=' bg-gray-900 flex justify-between items-center w-full h-24 p-10 fixed z-50'>
+    <nav className=' bg-gray-900 flex justify-between items-center w-full h-24 p-10 sticky z-50 top-0 lg:fixed'>
       <Link to='/'>
-        <p className='text-[#9474df] font-bold'>VeryourSignat</p>
+        <p className='text-[#9474df] font-bold'>VerYourSign</p>
       </Link>
 
       <div className=''>
@@ -26,8 +26,9 @@ const NavigationBar = () => {
 
       <Link to='/verification'>
         <button
+          disabled={location.pathname == "/verification"}
           className={`text-white p-2 rounded-full border-2 border-[#9474df] hover:bg-[#9474df] transition-all hover:text-black font-semibold ${
-            location.pathname == "/verification" && "hidden"
+            location.pathname == "/verification" && "opacity-0"
           }`}
         >
           Check your signature

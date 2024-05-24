@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/profileefre.jpg";
+import profile from "../assets/fre.png";
 import kiki from "../assets/kiki.jpeg";
 import jikku from "../assets/jikku.jpeg";
 import sandiaz from "../assets/sandiaz.jpeg";
@@ -11,7 +11,7 @@ const team = [
   {
     img: kiki,
     name: "Rizqi Fajri",
-    role: "Front end Developer",
+    role: "Frontend Developer",
   },
   {
     img: profile,
